@@ -26,6 +26,36 @@ int main(){
 
     
     }
+    int n1;
+    
+    cout << ".\n que tipo de ropa necesitas.\n1 Ropa de hombre.\n2 ropa de mujer .\n3  Mostrar todo"<< endl;
+    cin >> n1;
+
+    switch (n1)
+    {
+    case 1:
+        cout << "Camisa Casual: $90 (descuento del 30%)" << endl;
+        cout << "Pantalón Formal: $130 (descuento del 30%)" << endl;
+        cout << "Pantalón Formal: $130 (descuento del 30%)" << endl;
+        break;
+        case 2:
+        cout << " Blusa Moderna: $80 (descuento del 20%)" << endl;
+        cout << " Falda Elegante: $110 (descuento del 20%) "<< endl;
+        cout << "Abrigo Premium: $250 (descuento del 20%)" << endl;
+        break;
+        case 3:
+        cout << "Camisa Casual: $90 (descuento del 30%)" << endl;
+        cout << "Pantalón Formal: $130 (descuento del 30%)" << endl;
+        cout << "Pantalón Formal: $130 (descuento del 30%)" << endl;
+        cout << " Blusa Moderna: $80 (descuento del 20%)" << endl;
+        cout << " Falda Elegante: $110 (descuento del 20%) "<< endl;
+        cout << "Abrigo Premium: $250 (descuento del 20%)" << endl;
+        break;
+        
+    
+    
+    }
+
     
 
 
